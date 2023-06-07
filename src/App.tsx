@@ -1,9 +1,10 @@
 import React from "react";
+import Node from './types/Node';
 
-const App = (props: {children: Node})=>{
+const App = ({children}: {children?: Node})=>{
   return(
     <>
-    {props.children}
+    {children ?? null}
     </>
   )
 }
