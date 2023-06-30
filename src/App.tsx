@@ -1,12 +1,11 @@
-import React from "react";
-import Node from './types/Node';
+import React from 'react';
 
-const App = ({children}: {children?: Node})=>{
-  return(
+const App = () => {
+  return (
     <>
-    {children ?? null}
+      <h1>Hello, World!</h1>
     </>
-  )
-}
+  );
+};
 
 export default App;
