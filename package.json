@@ -26,7 +26,11 @@
   "scripts": {
     "prepare": "husky install",
     "commit": "git-cz",
-    "cz": "git-cz"
+    "cz": "git-cz",
+    "dev": "npx vite",
+    "start": "npx vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "config": {
     "commitizen": {
